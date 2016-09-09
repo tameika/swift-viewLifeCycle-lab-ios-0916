@@ -136,6 +136,7 @@
 		BA7362188C5D17958A5080EE299A90FC /* BeginWith.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72AFB2EC759951873CB157D424616D32 /* BeginWith.swift */; };
 		BBF88FA3F28C0906DBB78314A8E50A01 /* AssertionRecorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E5454AE22E92400039B0894E95D5B66 /* AssertionRecorder.swift */; };
 		BC6C168E14C3B1B7042B897135E5245F /* UIView-KIFAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = BB9651BA1606F3E9D433EB5E11357DCC /* UIView-KIFAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BCFE94BF1D83081C00DEC37F /* DSL.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B5E60113601007CADCDD0F50002AAEF /* DSL.h */; };
 		BEA76FA499D5899BD98DBD891FF921D4 /* SatisfyAnyOf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585D802FDB00C6468A07E152B1B05C10 /* SatisfyAnyOf.swift */; };
 		BFC2734E19EB95AF8401FB916BAC4E7E /* QuickSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = D2FED0079259CA9941EAE0F3ED694728 /* QuickSpec.m */; };
 		C14992679A9ED625623F4E9DCED1C774 /* KIFUIObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 59A3D62D4346AC3103CFFEC7C22A74A1 /* KIFUIObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -163,7 +164,6 @@
 		E83CBEA6149B3DAFF3FE7F19FE7DB2CC /* KIFTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = C657AD907E97B45308DC818BB39A9F2C /* KIFTestCase.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		E8DE03684C234604E472C27ECD8F6B70 /* BeAnInstanceOf.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB41296A2346D529B549ADA7BB5ADF77 /* BeAnInstanceOf.swift */; };
 		EB375964C4815482397A27EA78CF5B44 /* UIWindow-KIFAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 4984A494CD9878E99AA9E7B58BE2798F /* UIWindow-KIFAdditions.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		EB9C4D2E388805F9157AA356D4A857D5 /* DSL.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B5E60113601007CADCDD0F50002AAEF /* DSL.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EDFB262A2DE5A2D02B4C67B76F3A3787 /* Closures.swift in Sources */ = {isa = PBXBuildFile; fileRef = B64F0EED69A44E504AFCE346819F47BF /* Closures.swift */; };
 		EE3530B1EF1B06F5405DCE672B93E2B0 /* KIFTestStepValidation.m in Sources */ = {isa = PBXBuildFile; fileRef = 19D51528D9D2D726377EB3478CC922E3 /* KIFTestStepValidation.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		EFE20ADE81CBE47F13D76267285C4A35 /* FailureMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDEC925A49EC3A30E25B61E6520C3AEC /* FailureMessage.swift */; };
@@ -888,8 +888,8 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BCFE94BF1D83081C00DEC37F /* DSL.h in Headers */,
 				866830C585216CA87A15D078A28C410A /* CurrentTestCaseTracker.h in Headers */,
-				EB9C4D2E388805F9157AA356D4A857D5 /* DSL.h in Headers */,
 				B47F2B1F7F5FEC4CE62F09832392E842 /* Nimble-umbrella.h in Headers */,
 				A1F69DD3961B60955EFD28E2BDF446E8 /* Nimble.h in Headers */,
 				192C4EF47D90895E51E5597323364A3C /* NMBExceptionCapture.h in Headers */,
